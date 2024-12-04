@@ -1,0 +1,158 @@
+name: app
+description: "Camu taxi client"
+
+
+publish_to: 'none'
+
+
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^2.0.14
+  shared_preferences: ^2.3.3
+  flutter_localizations:
+    sdk: flutter
+  flutter_translate: ^4.1.0
+  pinput: ^4.0.0
+  flutter_riverpod: ^2.6.1
+  url_launcher: ^6.3.1
+  device_info_plus: ^11.1.1
+  flutter_local_notifications: ^18.0.0
+  wakelock_plus: ^1.2.8
+  connectivity_plus: ^6.1.0
+  mask_text_input_formatter: ^2.9.0
+  google_maps_flutter: ^2.9.0
+  maps_toolkit: ^3.0.0
+  location: ^7.0.1
+  permission_handler: ^11.3.1
+  dio: ^5.7.0
+  flutter_pretty_dio_logger: ^3.0.0
+  image_picker: ^1.1.2
+  optimize_battery: ^0.0.4
+  web_socket_channel: ^3.0.1
+  font_awesome_flutter: ^10.8.0
+  avatar_glow: ^3.0.1
+  flutter_rating_bar: ^4.0.1
+  webview_flutter: ^4.10.0
+  qr_flutter: ^4.1.0
+  package_info_plus: ^8.1.1
+  android_play_install_referrer: ^0.4.0
+  auto_size_text: ^3.0.0
+  audioplayers: ^6.1.0
+  share_plus: ^10.1.2
+
+
+
+  cupertino_icons: ^1.0.8
+  geolocator: ^13.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+
+
+  flutter_lints: ^5.0.0
+
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+    - assets/i18n/
+    - assets/json/
+    - assets/raw/
+  fonts:
+    - family: IBMPlexSans
+      fonts:
+        - asset: assets/fonts/IBMPlexSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/IBMPlexSans-BoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/IBMPlexSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/IBMPlexSans-SemiBoldItalic.ttf
+          weight: 600
+        - asset: assets/fonts/IBMPlexSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/IBMPlexSans-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/IBMPlexSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/IBMPlexSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/IBMPlexSans-LightItalic.ttf
+          weight: 300
+        - asset: assets/fonts/IBMPlexSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/IBMPlexSans-ExtraLightItalic.ttf
+          weight: 200
+        - asset: assets/fonts/IBMPlexSans-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/IBMPlexSans-ThinItalic.ttf
+          weight: 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
